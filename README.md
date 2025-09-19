@@ -12,7 +12,7 @@
             -Extracts dominant colors from the room photo
             -Suggests matching design styles (Scandinavian, Minimalist, Industrial, etc.)
             -Before & After picture view
-           -“Analyze Another Room” option
+            -“Analyze Another Room” option
 
      🛠️ Tech Stack:
            -Frontend:
