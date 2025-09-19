@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Room Analyzer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+            <main>
+        <h1>Room Analyzer</h1>
+        <p>Upload a photo of your room to get AI-powered design suggestions.</p>
+
+        <div class="Upload-box">
+            <label for="file-upload" class="drop-area" id="drop-area">
+                <input type="file" id="file-upload" hidden>
+                <div class="icon">📷</div>
+                <p>click to upload or drag and drop</p>
+                <p>JGP, PNG  or GIF (max.10MB) </p>
+
+            </label>
+
+        <div id="preview-container">
+            <!-- <button id="change-photo" class="change-btn">Change Photo</button> -->
+            <!-- <br> -->
+            <img id="preview" src="" alt="Room Preview">
+            <br>
+            <button id="change-photo" class="change-btn">Change Photo</button>
+        </div>
+            <button class="analyze-btn">Analyze My Room</button>
+            <div id="result-container" style="margin-top:20px;"></div>
+            <p class="terms">By uploading, you agree to our <a href="#">Terms of Service</a> and <a href="#"> Privacy Policy</a>.</p>
+
+        </div>
+        
+
+        </main>
+
+        <script src="script.js"></script>
+        <!-- </div> -->
+    </body>
+</html>

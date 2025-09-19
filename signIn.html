@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>RoomStyler</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- <div class="button">
+        <button  onclick="document.getElementById('id01').style.display='block'">LogIn</button>
+        <button  onclick="document.getElementById('id01').style.display='block'">Get Started</button> -->
+        <!-- </div -->
+        <!-- Button to open modal -->
+  <button class="open-modal-btn">LogIn</button>
+
+  <!-- Modal Overlay -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <h1>Welcome to RoomStyle AI</h1>
+      <p class="subtitle">Sign in to transform your living spaces</p>
+
+      <!-- Tabs -->
+      <div class="tab-buttons">
+        <button class="tab-btn active" id="signInTab">Sign In</button>
+        <button class="tab-btn" id="signUpTab">Create Account</button>
+      </div>
+
+      <!-- Sign In Form -->
+      <div class="form-container" id="signInForm">
+        <form>
+          <label>Email</label>
+          <input type="email" placeholder="your@email.com" required>
+
+          <label>Password</label>
+          <input type="password" placeholder="********" required>
+
+          <button type="submit" class="submit-btn">Sign In</button>
+        </form>
+      </div>
+
+      <!-- Sign Up Form -->
+      <div class="form-container hidden" id="signUpForm">
+        <form>
+          <label>Email</label>
+          <input type="email" placeholder="your@email.com" required>
+
+          <label>Create Password</label>
+          <input type="password" placeholder="********" required>
+
+          <label>Confirm Password</label>
+          <input type="password" placeholder="********" required>
+
+          <button type="submit" class="submit-btn">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </div>
+         <!-- <div class="container">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"  class="cancelbtn" >Cancel</button>
+            <span class="psw">Forgot  <a href="#">Password?</a></span> 
+         </div> -->
+        
+        
+          
+
+        <script>
+    // Elements
+    const openModalBtn = document.querySelector(".open-modal-btn");
+    const modalOverlay = document.getElementById("modalOverlay");
+    const closeModal = document.getElementById("closeModal");
+    const signInTab = document.getElementById("signInTab");
+    const signUpTab = document.getElementById("signUpTab");
+    const signInForm = document.getElementById("signInForm");
+    const signUpForm = document.getElementById("signUpForm");
+
+    // Open modal
+    openModalBtn.addEventListener("click", () => {
+      modalOverlay.classList.remove("hidden");
+    });
+
+    // Close modal
+    closeModal.addEventListener("click", () => {
+      modalOverlay.classList.add("hidden");
+    });
+
+    // Toggle Sign In / Sign Up
+    signInTab.addEventListener("click", () => {
+      signInTab.classList.add("active");
+      signUpTab.classList.remove("active");
+      signInForm.classList.remove("hidden");
+      signUpForm.classList.add("hidden");
+    });
+
+    signUpTab.addEventListener("click", () => {
+      signUpTab.classList.add("active");
+      signInTab.classList.remove("active");
+      signUpForm.classList.remove("hidden");
+      signInForm.classList.add("hidden");
+    });
+  </script>
+    </body>
+</html>
