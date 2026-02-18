@@ -13,6 +13,13 @@
     - Where user must create their account firstly if they are new otherwise the user must Sign In while using RoomStyleAI.
 
     ➣ Room Analyzer Page:-
+![alt image](https://github.com/Sakshi11dombale/RoomStyleAI/blob/d599eae52e587ce88d41f2da4900222ee6dca401/screenshot4.png)
+
+    - The aove page is created for analyzing the room.
+    - For analyzing users personal room the user have to upload their room image by clicking on upload button.
+    - After uploading room image the user have to click Analyze My Room Button for analyzing their room.
+    - This RoomStyleAI will classify the users room into "Modern","Traditional","Industrial", and "Minimalist" classes.
+    - After classification of users room image the RoomStyleAI will give the recommendations for the decoration or designing of room.
     
     
 
