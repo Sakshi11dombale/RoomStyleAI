@@ -7,6 +7,10 @@
 
     
     ➣ User Authentication :-
+![alt image](https://github.com/Sakshi11dombale/RoomStyleAI/blob/574e254f436ffff4a974b7795f29dd63a9e8f868/screenshot3.png)
+
+    - The above page is created for the user authentication.
+    - Where user must create their account firstly if they are new otherwise the user must Sign In while using RoomStyleAI.
     
 
 
