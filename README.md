@@ -20,6 +20,11 @@
     - After uploading room image the user have to click Analyze My Room Button for analyzing their room.
     - This RoomStyleAI will classify the users room into "Modern","Traditional","Industrial", and "Minimalist" classes.
     - After classification of users room image the RoomStyleAI will give the recommendations for the decoration or designing of room.
+
+   ➣ Output(Recommendations):-
+
+![alt image](https://github.com/Sakshi11dombale/RoomStyleAI/blob/d79928af8a6fb91b7a17113e9d4feec122649c4a/screenshot5.png)
+
     
     
 
