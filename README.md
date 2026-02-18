@@ -44,7 +44,9 @@ RoomStyleAI is an AI-powered interior design assistance project that helps users
     - The classification and the confidence level of the room can be predicated by the RoomStyleAI.
     - It can also give the recommendations to decorate and to change the room style of users.
     - According to the users room style the output will be generate.
-
+• Contributors
+- Shravani Battul
+- Sakshi Dombale 
     
     
 
