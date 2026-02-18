@@ -25,6 +25,11 @@
 
 ![alt image](https://github.com/Sakshi11dombale/RoomStyleAI/blob/d79928af8a6fb91b7a17113e9d4feec122649c4a/screenshot5.png)
 
+    - The RoomStyleAI will give the output as shown in the above picture.
+    - The classification and the confidence level of the room can be predicated by the RoomStyleAI.
+    - It can also give the recommendations to decorate and to change the room style of users.
+    - According to the users room style the output will be generate.
+
     
     
 
