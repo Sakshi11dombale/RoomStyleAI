@@ -1,18 +1,18 @@
 🔹 **Working flow** :-
 
-    ➣ Features Page:-
+➣ Features Page:-
 ![alt image](https://github.com/Sakshi11dombale/RoomStyleAI/blob/7f59615d8a0dbb6e0536054ac94b28fa27892fd1/screenshot2.png)
 
     - The above picture describes the features and benefits of the RoomStyleAI.
 
     
-    ➣ User Authentication Page:-
+➣ User Authentication Page:-
 ![alt image](https://github.com/Sakshi11dombale/RoomStyleAI/blob/574e254f436ffff4a974b7795f29dd63a9e8f868/screenshot3.png)
 
     - The above page is created for the user authentication.
     - Where user must create their account firstly if they are new otherwise the user must Sign In while using RoomStyleAI.
 
-    ➣ Room Analyzer Page:-
+➣ Room Analyzer Page:-
 ![alt image](https://github.com/Sakshi11dombale/RoomStyleAI/blob/d599eae52e587ce88d41f2da4900222ee6dca401/screenshot4.png)
 
     - The aove page is created for analyzing the room.
@@ -21,7 +21,7 @@
     - This RoomStyleAI will classify the users room into "Modern","Traditional","Industrial", and "Minimalist" classes.
     - After classification of users room image the RoomStyleAI will give the recommendations for the decoration or designing of room.
 
-   ➣ Output(Recommendations):-
+➣ Output(Recommendations):-
 
 ![alt image](https://github.com/Sakshi11dombale/RoomStyleAI/blob/d79928af8a6fb91b7a17113e9d4feec122649c4a/screenshot5.png)
 
