@@ -1,3 +1,5 @@
+RoomStyleAI 🏠✨
+
 RoomStyleAI is an AI-powered interior design assistance project that helps users visualize and transform their rooms using intelligent style, color, and layout recommendations. By analyzing room images, the system generates personalized design ideas, enabling users to preview how their space can look before making real-world changes.
 
 🔹 **Working flow** :-
